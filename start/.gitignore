@@ -1,24 +1,82 @@
-# Logs
-logs
-*.log
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# VSCode
+.vscode/
+.history/
+
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+package-lock.json
+.pnpm-debug.log
 
-node_modules
-dist
-dist-ssr
-*.local
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+*.egg-info/
+.eggs/
+.tox/
+coverage/
+dist/
+build/
+*.manifest
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# System files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.bak
+*.tmp
+*.swp
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Git
+.git/
+.gitignore
+
+# Compiled source
+*.class
+*.o
+*.so
+*.dll
+*.exe
+
+# Test results
+*.out
+*.coverage
+*.lcov
+
+# Others
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.sqlite
+*.db
+*.pid
+*.pid.lock
+
+# React / Web build
+build/
+dist/
+.cache/
+.next/
+out/
+public/build/
